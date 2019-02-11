@@ -68,7 +68,7 @@ def checkPrebellicoDb():
     sqliteDbFile=args['db']
     if sqliteDbFile is None:
         sqliteDbFile='prebellico.db'
-    print("\nChecking for '%s' database file.") % ( sqliteDbFile )
+    print("\nChecking for a '%s' database file.") % ( sqliteDbFile )
     if not os.path.exists(sqliteDbFile):
         print("\nThe '%s' database file does not exist. Creating a prebellico database now.") % ( sqliteDbFile )
         try:
@@ -1783,6 +1783,7 @@ elif dev:
 else:
     print("\nAn interface or a PCAP file was not provided.")
     dev = getInterface()
+    ( devIp, sniff ) = sniffInterface(dev)
 
 # Set a filter for data based upon user preferences.
 filter = ("ether[20:2] == 0x2004 or ip or arp or aarp and not host 0.0.0.0")
