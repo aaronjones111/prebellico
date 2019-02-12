@@ -108,11 +108,11 @@ The fact is, sometimes packets get to places they shouldn't.
 
 With prebellico you'll be prepared to catch them.
 
-#### Prebellico - Because there *is* no patch for 100% passive reconnaissance.
-
 ## Roadmap
 - semi-passive mode: further enumeration leveraging acquired intel
 - remote probe: no local DB, exfil to remote master
 - improved hash recognition and recording
 - db merging / importing
 - network graph
+
+# Prebellico - Because there *is* no patch for 100% passive reconnaissance.
