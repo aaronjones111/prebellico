@@ -104,6 +104,15 @@ IT truths:
 - Things don't always work as they should
 - Designs aren't always executed to perfection
 
-The fact is, sometimes packets get to places they shouldn't. With prebellico you'll be prepared to catch them.
+The fact is, sometimes packets get to places they shouldn't. 
 
-#### Prebellico - Because there is no patch for 100% passive reconnaissance.
+With prebellico you'll be prepared to catch them.
+
+#### Prebellico - Because there *is* no patch for 100% passive reconnaissance.
+
+## Roadmap
+- semi-passive mode: further enumeration leveraging acquired intel
+- remote probe: no local DB, exfil to remote master
+- improved hash recognition and recording
+- db merging / importing
+- network graph
