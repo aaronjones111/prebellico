@@ -2,13 +2,13 @@
 #### 100% Passive Network Reconnaissance Tool
 
 ## Challenge your assumptions
-When attacking, auditing or defending modern internal networks intelligence is everything.  Understanding the environment can be the difference between successfully penetrating, or defending, the target environment.
+When attacking, auditing, or defending modern internal networks, intelligence is everything.  Understanding the environment to the best possible degree can be the difference between successfully penetrating, or defending, the target environment.
 
 Over the years, internal audit and testing engagements have been operating on various assumptions within switched networks, often driving engagement execution methods. 
 
 But what if these assumptions were wrong? 
 
-What if programs and network gear didn't always do what it's supposed to do?
+What if programs and network gear didn't always do what they're supposed to do?
 
 What if we could utilize the idle time; the off-hour pauses; the days, sometimes weeks, that exist between deployment and engagement execution; to understand the network and reclaim wasted time? 
 
@@ -18,12 +18,10 @@ What if you could gain a foothold into an organization prior to engagement by si
 
 Obtaining information about the network in a stealthy manner can be difficult within a mature environment. Even during overt engagements, obtaining the information you need within a limited time window can be difficult. There are engagement delays, there are poor descriptions, there are poor assumptions, there are simulated or test environments. 
 
-These things can easily lead to unrealistic scope reductions (intentional or unintentional) and assumptions a real-world attacker would not be subject to. 
+These things can easily lead to unrealistic scope reductions and assumptions (intentional or unintentional) a real-world attacker would not be subject to. What you believe, what you expect, invariably affect what you do and where you look.
 
 ## Who this is for
-Prebellico is great for red teams, blue teams, penetration testers, auditors, defenders and hunters alike; anyone who wants to know more about the network they're in. 
-
-It is a 100% passive network reconnaissance tool designed to challenge assumptions made about the target environment that may have arisen around the intent of the engagement. 
+Prebellico is great for red teams, blue teams, penetration testers, auditors, defenders and hunters alike; anyone who wants to know more about the network they're in. It is a 100% passive network reconnaissance tool designed to challenge assumptions made about the target environment that may have arisen around the intent of the engagement. 
 
 Prebellico fingerprints the environment without touching it, gathering information about the target environment prior to, and during, an engagement without transmission, including what is called reverse port scanning. 
 
@@ -48,5 +46,7 @@ Want to understand the environment your tending?
 Prebellico has the ability to process PCAP files (with a maximum SNAPLEN of 262144 bytes) prior to, during, or after an engagement. 
 
 This can be used for processing historical data obtained elsewhere or for scope validation purposes prior to engagement kickoff. You can also merge this data during the engagement by copying the database over and specifying the database and log file at launch time, if so desired.
+
+
 
 #### Prebellico - Because there is no patch for 100% passive reconnaissance.
